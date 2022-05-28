@@ -23,7 +23,7 @@ namespace Stack
                 node.next = this.top;
             }
             this.top = node;
-            Console.WriteLine("{0} pushed to Stack\n", value);
+            Console.WriteLine("{0} pushed to Stack", value);
         }
         internal void Display()
         {

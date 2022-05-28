@@ -10,6 +10,9 @@ namespace Queue
             queue.Enqueue(50);
             queue.Enqueue(30);
             queue.Enqueue(70);
+            queue.Dqueue();
+            queue.Dqueue();
+            queue.Dqueue();
             queue.Display();
         }
     }

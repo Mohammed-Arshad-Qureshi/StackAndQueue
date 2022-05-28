@@ -43,5 +43,18 @@ namespace Queue
                 temp = temp.next;
             }
         }
+
+        internal void Dqueue()
+        {
+            if(this.head == null)
+            {
+                Console.WriteLine("Queue is empty Deletion is not possible");
+            }
+            else
+            {
+                Console.WriteLine("Value Dequeued is {0} ", this.head.data);
+                this.head = this.head.next;
+            }
+        }
     }
 }
