@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Stack
+namespace Queue
 {
     class Node
     {
@@ -11,6 +11,6 @@ namespace Stack
         public Node(int data)
         {
             this.data = data;
-        }
+        } 
     }
 }

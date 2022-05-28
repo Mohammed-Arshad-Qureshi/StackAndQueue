@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StackAndQueue
+namespace Stack
 {
     class Program
     {
@@ -15,7 +15,6 @@ namespace StackAndQueue
             llStack.pop();
             Console.WriteLine(" \n\n### After Pop operation ###  ");
             llStack.Display();
-
             llStack.IsEmpty();
 
         }
